@@ -11,7 +11,9 @@ public class Main {
       while(!input.equals("quit")){
           System.out.println("Input: ");
           input = scanner.next().toLowerCase();
+          if (!input.equals("quit"))
           System.out.println(input);
       }
+
     }
 }
