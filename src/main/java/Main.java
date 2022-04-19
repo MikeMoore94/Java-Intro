@@ -1,8 +1,9 @@
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-       int x = 10 + 3 * 2;
-        System.out.println(x);
+       short x = 1;
+       int y = x + 2;
+        System.out.println(y);
 
     }
 }
