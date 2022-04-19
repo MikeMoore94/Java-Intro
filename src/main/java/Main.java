@@ -16,6 +16,10 @@ public class Main {
        float annualInterest = scanner1.nextFloat();
        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEARS;
 
+        System.out.print("Period (Years): ");
+        int periodYear = scanner1.nextInt();
+        int periodMonth = periodYear*12;
+
 
 
     }
