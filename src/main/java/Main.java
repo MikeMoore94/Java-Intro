@@ -6,9 +6,11 @@ public class Main {
 
 
     public static void main(String[] args) {
-        int temp = 22;
-        boolean isWarm = temp > 20 && temp < 30;
-        System.out.println(isWarm);
+        boolean hasHighIncome = true;
+        boolean hasGoodCredit = true;
+        boolean hasCriminalRecord = false;
+        boolean isElible = (hasGoodCredit || hasHighIncome) && !hasCriminalRecord;
+        System.out.println(isElible);
 
 
     }
