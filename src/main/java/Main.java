@@ -20,6 +20,12 @@ public class Main {
         int periodYear = scanner1.nextInt();
         int periodMonth = periodYear*12;
 
+        double mortgage = principal*((monthlyInterest*(Math.pow(1+monthlyInterest, periodMonth)))/
+                (Math.pow(1+monthlyInterest, periodMonth)-1));
+
+        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+        System.out.println("Mortgage: "+mortgageFormatted);
+
 
 
     }
